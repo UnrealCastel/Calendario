@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkred;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center; 
+    color: white;
+}
+
+table {
+    width: 100%;
+    height: auto; 
+    border-spacing: 8px; 
+    border-width: 4px;
+    border-style: dotted; 
+    border-color: #000000;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-collapse: separate; 
+}
+
+th, td {
+    border: 2px solid #000000; 
+    border-radius: 15px;   
+    text-align: center;    
+    padding: 12px 10px;     
+}
+
+th {
+    background-color: darkred;
+    color: rgb(255, 255, 255);
+}
+
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #ffffff !important; 
+    transition: background-color 0.3s ease;
+}
+
+
+.bloque {
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.estudiar {
+    font-weight: bold;
+}
+
+.estudiar.oscuro {
+    background-color: red;
+    color: rgb(0, 0, 0);
+}
+
+.estudiar.claro {
+    background-color: red;
+}
+
+.clases {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+}
+
+.descansar {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
